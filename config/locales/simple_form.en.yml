@@ -10,6 +10,14 @@ en:
       # html: '<abbr title="required">*</abbr>'
     error_notification:
       default_message: "Please review the problems below:"
+
+    placeholders:
+      quote:
+        name: Name of your quote
+    labels:
+      quote:
+        name: Name
+
     # Examples
     # labels:
     #   defaults:
@@ -29,3 +37,8 @@ en:
     # prompts:
     #   defaults:
     #     age: 'Select your age'
+  helpers:
+    submit:
+      quote:
+        create: Create quote
+        update: Update quote
