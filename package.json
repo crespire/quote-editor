@@ -2,6 +2,7 @@
   "name": "app",
   "private": "true",
   "dependencies": {
+    "@hotwired/turbo-rails": "^7.1.1",
     "esbuild": "^0.14.31",
     "sass": "^1.49.11"
   },
