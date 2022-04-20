@@ -4,4 +4,6 @@ class Quote < ApplicationRecord
   scope :ordered, -> { order(id: :desc) }
 
   broadcasts_to ->(quote) { 'quotes' }, inserts_by: :prepend
+
+  belongs_to :company
 end

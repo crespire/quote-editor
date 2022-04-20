@@ -4,4 +4,6 @@ class User < ApplicationRecord
 
   # Cut down devise usage for example.
   devise :database_authenticatable, :validatable
+
+  belongs_to :company
 end
